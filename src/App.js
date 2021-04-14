@@ -1,11 +1,12 @@
+import { _BodyContainer } from './style'
+
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>Hello</h1>
-      </header>
-    </div>
+    <_BodyContainer>
+      <h1>30-Day Workout Challenge</h1>
+      <p>At this rate you will complete this challenge in <span>30 Days</span></p>
+    </_BodyContainer>
   );
 }
 
-export default App;
+export default App
